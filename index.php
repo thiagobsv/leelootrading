@@ -97,7 +97,7 @@
 
                           <br/>
 
-                          <b>TIPO DE PRUEBA</b><br/>
+                          <b>FECHA PRUEBA</b><br/>
                         
                           <select name="fecha" class="form-control rounded-0">
                             <option value="Enero">Enero</option>
