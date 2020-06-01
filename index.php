@@ -94,6 +94,28 @@
                             <option value="500K">500K</option> 
                           </select>
 
+
+                          <br/>
+
+                          <b>TIPO DE PRUEBA</b><br/>
+                        
+                          <select name="fecha" class="form-control rounded-0">
+                            <option value="Enero">Enero</option>
+                            <option value="Febrero">Febrero</option>
+                            <option value="Marzo">Marzo</option>
+                            <option value="Abril">Abril</option>
+                            <option value="Mayo">Mayo</option>
+                            <option value="Junio">Junio</option>
+                            <option value="Julio">Julio</option> 
+                            <option value="Agosto">Agosto</option> 
+                            <option value="Septiembre">Septiembre</option> 
+                            <option value="Octubre">Octubre</option> 
+                            <option value="Noviembre">Noviembre</option> 
+                            <option value="Diciembre">Diciembre</option> 
+                            
+                          </select>
+
+
                     </div>
 
                     <button class="btn saasbox-btn white-btn w-100" type="submit"><i class="fa fa-file-pdf-o"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  Crear</font></font></button>
@@ -122,5 +144,4 @@
 
     </body>
     </html>
-
   
