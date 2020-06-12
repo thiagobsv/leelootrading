@@ -51,15 +51,16 @@
 
                 <div class="certificate" id="imp1">
                 	<div class="certificate-logo"><img src="https://www.leelootrading.com/static/8452429920cfdd4c745619190ff0f097/13bd3/leeloo-logo.png" style="max-width: 40%;"></div>
-                    <div class="top-text">Opere menos, viva más: vida sin límites </div>
+                    <div class="top-text">CERTIFICADO DE LOGRO </div>
                     <div class="honor-text">  <?php echo $_POST['nombre'];?>   </div>
-                    <p>Ha aprobado exitosamente en <b><?php echo $_POST['fecha'];?> del 2020 </b>  la categoria de: </p>
-                    <div class="honor-text no-padding" style="color: #255589;">Prueba de fondeo <?php echo $_POST['prueba'];?> </div>
-                    <p>Mucha suerte en la siguiente etapa como trader.</p>
+                    <p>Para reconocer el esfuerzo y la exitosa aprobación de su Cuenta de Evaluación de trading de: </p>
+                    <div class="honor-text no-padding" style="color: #255589;"><?php echo $_POST['prueba'];?> </div>
+                    <p>calificando para operar una Cuenta PA de Pago por Desempeño de Leeloo</p>
 
                     <div class="signechar-row">
                         <div class="signechar-box">
-                            <div class="img"><img src="images/save-timeIcon.png" alt=""></div>
+                            <div class="img"><img src="https://i.ibb.co/gS39KJ5/footer.png" alt=""></div>
+                            <b><?php echo $_POST['fecha'];?> del 2020 </b>
                         </div>
                         
                     </div>
@@ -167,3 +168,4 @@ var printContents = document.getElementById('imp1').innerHTML;
 </body>
 
 </html>
+
