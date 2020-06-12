@@ -1,5 +1,3 @@
-<?php 
-  ?>
 <html lang="es" class="">
   
 <head> 
@@ -85,19 +83,18 @@
                           <b>TIPO DE PRUEBA</b><br/>
                         
                           <select name="prueba" class="form-control rounded-0">
-                            <option value="25K">25K</option>
-                            <option value="50K">50K</option>
-                            <option value="100K">100K</option>
-                            <option value="200K">200K</option>
-                            <option value="300K">300K</option>
-                            <option value="400K">400K</option>
-                            <option value="500K">500K</option> 
+                            <option value="25k 3 contratos">25k 3 contratos</option>
+                            <option value="50k 8 contratos">50k 8 contratos</option>
+                            <option value="100k 12 contratos">100k 12 contratos</option>
+                            <option value="150k 15 contratos">150k 15 contratos</option>
+                            <option value="250k 25 contratos">250k 25 contratos</option>
+                            <option value="300k 30 contratos">300k 30 contratos</option>
                           </select>
 
 
                           <br/>
 
-                          <b>FECHA PRUEBA</b><br/>
+                          <b>TIPO DE PRUEBA</b><br/>
                         
                           <select name="fecha" class="form-control rounded-0">
                             <option value="Enero">Enero</option>
@@ -144,4 +141,3 @@
 
     </body>
     </html>
-  
