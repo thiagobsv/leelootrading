@@ -840,7 +840,7 @@ textarea:invalid {
   position: relative;
   z-index: 2;
   height: 100vh;
-  background-color: #000000;
+  background-color: #db342d33;
   overflow: hidden; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .welcome-area {
@@ -862,7 +862,7 @@ textarea:invalid {
     width: 2200px;
     height: 2200px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.09);
+    background: rgba(37, 85, 137, 0.78);
     position: absolute;
     z-index: -30;
     top: -1100px;
@@ -889,7 +889,7 @@ textarea:invalid {
     width: 1700px;
     height: 1700px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.09);
+    background: rgba(37, 85, 137, 0.75);
     position: absolute;
     z-index: -20;
     top: -850px;
@@ -916,7 +916,7 @@ textarea:invalid {
     width: 1200px;
     height: 1200px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.09);
+    background: rgba(37, 85, 137, 0.81);
     position: absolute;
     z-index: -10;
     top: -600px;
@@ -943,7 +943,7 @@ textarea:invalid {
     width: 700px;
     height: 700px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.09);
+    background: rgb(37, 85, 137);
     position: absolute;
     z-index: -10;
     top: -350px;
