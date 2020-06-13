@@ -1582,7 +1582,7 @@ input[type="text"]:focus {border:none; outline:none; }
 .certificate-view .institut-text h2 {text-transform:uppercase; padding-bottom:10px; }
 .certificate-view .institut-text p {font-size:16px; }
 .certificate-view .institut-text h3 {font-family:"Roboto",sans-serif; padding:30px 0 0 0;}
-.certificate-view .certificate {display:block; position:relative; border:solid 15px #255589; padding:30px 0; text-align:center; background:url(https://i.ibb.co/sWk2ktp/fonfoo1.png) no-repeat center center; }
+.certificate-view .certificate {display:block; position:relative; border:solid 15px #255589; padding:30px 0; text-align:center; background:url(https://i.ibb.co/sWk2ktp/fonfoo1.png   ) no-repeat top center; }
 .certificate-view .certificate:after,
 .certificate-view .certificate:before {position:absolute; bottom:0px; left:0px; content:""; border-top: 15px solid transparent; border-left: 20px solid #255589;}
 .certificate-view .certificate:before {left:auto; right:0px; border-top: 15px solid transparent;  border-right:20px solid #255589; border-left:none;}
