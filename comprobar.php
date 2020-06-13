@@ -32,6 +32,8 @@
         
       
         <section class="banner inner-page">
+
+<!------------ -- OCULTOS  -------------------------------------       
         	<div class="banner-img"><img src="https://www.leelootrading.com/static/8452429920cfdd4c745619190ff0f097/13bd3/leeloo-logo.png"></div>
             <div class="page-title">	
 	            <div class="container">
@@ -39,27 +41,30 @@
                 </div>
             </div>
         </section>
+---------------------------FIN OCULTOS--------------------------------------------- -->
        
         <div class="certificate-view" id="certificate"> 
         	<div class="container" >
-            
+
+<!------------ -- OCULTOS  -------------------------------------       
+
                 <div class="institut-text">
                 	<h2> <?php echo $_POST['sexo'];?>  <?php echo $_POST['nombre'];?> TE HAS GANADO UN CERTIFICADO!</h2>
-                    <p>¡Felicidades! Esta página resume lo que logró.</p>
-                    <h3>Con el siguiente certificado.</h3>
                 </div>
+---------------------------FIN OCULTOS--------------------------------------------- -->
+    
 
-                <div class="certificate" id="imp1">
-                	<div class="certificate-logo"><img src="https://www.leelootrading.com/static/8452429920cfdd4c745619190ff0f097/13bd3/leeloo-logo.png" style="max-width: 40%;"></div>
+                <div class="certificate" id="imp1"  style="border: solid 15px #255589;">
+                	<div class="certificate-logo"><img src="https://www.leelootrading.com/static/8452429920cfdd4c745619190ff0f097/13bd3/leeloo-logo.png" style="max-width:100%;height: 200px;"></div>
                     <div class="top-text">CERTIFICADO DE LOGRO </div>
-                    <div class="honor-text">  <?php echo $_POST['nombre'];?>   </div>
-                    <p>Para reconocer el esfuerzo y la exitosa aprobación de su Cuenta de Evaluación de trading de: </p>
-                    <div class="honor-text no-padding" style="color: #255589;"><?php echo $_POST['prueba'];?> </div>
-                    <p>calificando para operar una Cuenta PA de Pago por Desempeño de Leeloo</p>
+                    <div class="honor-text" style="font-size: 45px;">  <?php echo $_POST['nombre'];?>   </div>
+                    <p style="font-size: 18px;">Para reconocer el esfuerzo y la exitosa aprobación de su Cuenta de Evaluación de trading de: </p>
+                    <div class="honor-text no-padding" style="color: #255589;padding-top: 10px;"><?php echo $_POST['prueba'];?> </div>
+                    <p style="font-size: 14px;">Calificando para operar una Cuenta PA de Pago por Desempeño de Leeloo</p>
 
                     <div class="signechar-row">
                         <div class="signechar-box">
-                            <div class="img"><img src="https://i.ibb.co/gS39KJ5/footer.png" alt=""></div>
+                            <div class="img"><img src="https://i.ibb.co/gS39KJ5/footer.png" style="height: 40px;"></div>
                             <b><?php echo $_POST['fecha'];?> del 2020 </b>
                         </div>
                         
@@ -67,25 +72,19 @@
                 </div>
 
              
+
+
+
+
+                <!------------------------- OCULTOS
                 <div class="download-btn">
-
-
-
-
-
-                    <a href="#" class="btn"><i class="fa fa-file-pdf-o"></i> Descargar Certificado</a>
-                    
-
- <!-- OCULTOS
-                    <button class="btn" id="cmd" onclick ="run()">Generar PDF</button>
                     <button class="btn" type="button" onclick="javascript:imprim1(imp1);">Imprimir</button>
-               
-  ------------------------------------------ -->            
-               
-               
-               
-               
+                     <a href="#" class="btn"><i class="fa fa-file-pdf-o"></i> Descargar Certificado</a>
+                    <button class="btn" id="cmd" onclick ="run()">Generar PDF</button>
+
                 </div>
+                 ------------------------------------------ -->
+                 
             </div>
         </div>
         <footer id="footer">
@@ -94,15 +93,10 @@
             	<div class="row">
                 	<div class="col-sm-8">
             			<div class="copy-right">
-                        	<p>Copyright © <span class="year">2020</span> Thiago.</p>
                         </div>
                     </div>
                     <div class="col-sm-4 ">	
-                    	<div class="social-media">
-                        	<ul>
-                            	<li><a href="https://www.instagram.com/bitek.co"><i class="fa fa-instagram"></i></a></li>
-                                
-                            </ul>
+                    	
                         </div>
                     </div>
                 </div>
