@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -65,7 +66,19 @@
                     <div class="signechar-row">
                         <div class="signechar-box">
                             <div class="img"><img src="https://i.ibb.co/gS39KJ5/footer.png" style="height: 40px;"></div>
+                            <b>
+                            <script>
+                                var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                                var f=new Date();
+                                    document.write(f.getDate() + " de " + meses[f.getMonth()] + " del " + f.getFullYear());
+                            </script>
+                            </b>
+
+                     <!------------ -- OCULTA FECHA EN PHP -------------------------------------       
+       
                             <b><?php echo $_POST['fecha'];?> del 2020 </b>
+                     ---------------------------FIN OCULTOS--------------------------------------------- -->
+
                         </div>
                         
                     </div>
@@ -162,4 +175,3 @@ var printContents = document.getElementById('imp1').innerHTML;
 </body>
 
 </html>
-
