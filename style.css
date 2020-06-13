@@ -789,6 +789,8 @@ textarea:invalid {
       z-index: -1; }
   .background-animation .box-ani {
     position: absolute;
+      .background-animation .box-ani {
+    position: absolute;
     border-radius: 50%;
     -webkit-animation: rotateAnimation linear 37s infinite;
     animation: rotateAnimation linear 37s infinite;
@@ -840,7 +842,7 @@ textarea:invalid {
   position: relative;
   z-index: 2;
   height: 100vh;
-  background-color: #db342d33;
+  background-color: #090909;
   overflow: hidden; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .welcome-area {
@@ -862,7 +864,7 @@ textarea:invalid {
     width: 2200px;
     height: 2200px;
     border-radius: 50%;
-    background: rgba(37, 85, 137, 0.78);
+    background: rgba(7, 56, 108);
     position: absolute;
     z-index: -30;
     top: -1100px;
@@ -889,7 +891,7 @@ textarea:invalid {
     width: 1700px;
     height: 1700px;
     border-radius: 50%;
-    background: rgba(37, 85, 137, 0.75);
+    background: rgba(28, 80, 136);
     position: absolute;
     z-index: -20;
     top: -850px;
@@ -916,7 +918,7 @@ textarea:invalid {
     width: 1200px;
     height: 1200px;
     border-radius: 50%;
-    background: rgba(37, 85, 137, 0.81);
+    background: rgba(46, 94, 145);
     position: absolute;
     z-index: -10;
     top: -600px;
